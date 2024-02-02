@@ -1,6 +1,10 @@
 body {
     margin: 0;
     overflow: hidden; /* Prevents horizontal scrolling */
+    height: 100vh; /* Set body height to 100% of the viewport height */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
 }
 
 iframe {
@@ -9,5 +13,4 @@ iframe {
     max-width: 1920px;
     max-height: 1080px;
     display: block; /* Remove any default inline styles */
-    margin: 0 auto; /* Center the iframe */
 }
